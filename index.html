@@ -3,6 +3,54 @@
 <head>
 	<meta charset="utf-8">
 	<title>My first Website</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+			background-color: cornsilk;
+		}
+		h1 {
+			color: #ff0000;
+			font-size: 62px;
+			text-align: right;
+			font-family: 'Staatliches', cursive;
+			border: 3px maroon groove;
+		}
+		h2 {
+			color: rgb(127, 127, 127);
+			font-size: 30px;
+			text-align: center;
+		}
+		h3 {
+			text-decoration: underline;
+			font-size: 24px;
+		}
+		p {
+			text-align: justify;
+			font-family: 'Roboto Slab', serif;
+		}
+		th {
+			background-color: rgb(108, 173, 78);
+			color:  white;
+			border: 1px solid lightgrey;
+			padding: 8px;
+		}
+		td {
+			border: 1px solid lightgrey;
+			padding:  8px;
+		}
+		tr:nth-child(odd) {
+			background-color: white;
+		}
+		tr:nth-child(even) {
+			background-color: lightgrey;
+		}
+		table {
+			border-collapse: collapse;
+		}
+	</style>
 </head>
 <body>
 <h1>Hello World</h1>
@@ -45,5 +93,30 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>This is the second item</li>
 	<li>This is the third item</li>
 </ol>
+<hr>
+<h2>Table</h2>
+<table id="customers">
+	<tr>
+		<th width="200px">Name</th>
+		<th width="100px">Email</th>
+		<th width="100px">Phone Number</th>
+	</tr>
+	<tr>
+		<td>TKE</td>
+		<td>keentan1227@gmail.com</td>
+		<td>0123456789</td>
+	</tr>
+	<tr>
+		<td>OPP</td>
+		<td>xxx@gmail.com</td>
+		<td>0123456789</td>
+	</tr>
+	<tr>
+		<td>xxx</td>
+		<td>xxx@gmail.com</td>
+		<td>0123456789</td>
+	</tr>
+</table>
+
 </body>
 </html>
